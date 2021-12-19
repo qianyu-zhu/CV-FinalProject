@@ -1,0 +1,392 @@
+start training
+all done
+We are using the state dict from
+ /scratch/qz1086/CV-FinalProject/CVFramework/checkpoints/UNet_26.pth
+this is the trial for L1, L2 structred pruning, 	        prune encoder in np.linspace(0.0, 1.0, 9), 	        decoder in np.linspace(0.0, 1.0, 9)
+the matrix notation: first for L1, second for L2, 	        raw for decoder, colum for encoder
+Encoder pruning
+ amount: 0.0 - 1.0 
+method: 1
+decoder pruning ratio = 0.00
+encoder pruning ratio = 0.0
+2.49685314628813
+encoder pruning ratio = 0.125
+2.5206676059299045
+encoder pruning ratio = 0.25
+2.786770337157779
+encoder pruning ratio = 0.375
+3.162472791141934
+encoder pruning ratio = 0.5
+3.714943938785129
+encoder pruning ratio = 0.625
+4.209131677945455
+encoder pruning ratio = 0.75
+4.37410471174452
+encoder pruning ratio = 0.875
+4.483357018894619
+encoder pruning ratio = 1.0
+5.682399564319187
+decoder pruning ratio = 0.12
+encoder pruning ratio = 0.0
+2.496853152910868
+encoder pruning ratio = 0.125
+2.5206676854027643
+encoder pruning ratio = 0.25
+2.786770350403256
+encoder pruning ratio = 0.375
+3.1624728308783636
+encoder pruning ratio = 0.5
+3.714943952030606
+encoder pruning ratio = 0.625
+4.209131651454502
+encoder pruning ratio = 0.75
+4.374104592535231
+encoder pruning ratio = 0.875
+4.483357005649143
+encoder pruning ratio = 1.0
+5.682399537828234
+decoder pruning ratio = 0.25
+encoder pruning ratio = 0.0
+2.4968530999289618
+encoder pruning ratio = 0.125
+2.520667698648241
+encoder pruning ratio = 0.25
+2.786770304044088
+encoder pruning ratio = 0.375
+3.1624728308783636
+encoder pruning ratio = 0.5
+3.714943938785129
+encoder pruning ratio = 0.625
+4.2091315852271185
+encoder pruning ratio = 0.75
+4.374104579289754
+encoder pruning ratio = 0.875
+4.483356965912713
+encoder pruning ratio = 1.0
+5.6823996967739525
+decoder pruning ratio = 0.38
+encoder pruning ratio = 0.0
+2.496853139665392
+encoder pruning ratio = 0.125
+2.5206676390435963
+encoder pruning ratio = 0.25
+2.786770376894209
+encoder pruning ratio = 0.375
+3.1624728904830084
+encoder pruning ratio = 0.5
+3.7149439652760825
+encoder pruning ratio = 0.625
+4.209131638209025
+encoder pruning ratio = 0.75
+4.374104605780707
+encoder pruning ratio = 0.875
+4.483357005649143
+encoder pruning ratio = 1.0
+5.682399484846327
+decoder pruning ratio = 0.50
+encoder pruning ratio = 0.0
+2.4968531330426535
+encoder pruning ratio = 0.125
+2.5206676655345492
+encoder pruning ratio = 0.25
+2.7867703901396856
+encoder pruning ratio = 0.375
+3.1624729368421765
+encoder pruning ratio = 0.5
+3.7149439255396524
+encoder pruning ratio = 0.625
+4.209131571981642
+encoder pruning ratio = 0.75
+4.374104658762614
+encoder pruning ratio = 0.875
+4.483356806966993
+encoder pruning ratio = 1.0
+5.68239959081014
+decoder pruning ratio = 0.62
+encoder pruning ratio = 0.0
+2.496853152910868
+encoder pruning ratio = 0.125
+2.5206676390435963
+encoder pruning ratio = 0.25
+2.7867703570259943
+encoder pruning ratio = 0.375
+3.162472777896457
+encoder pruning ratio = 0.5
+3.714943938785129
+encoder pruning ratio = 0.625
+4.209131677945455
+encoder pruning ratio = 0.75
+4.374104632271661
+encoder pruning ratio = 0.875
+4.483356873194377
+encoder pruning ratio = 1.0
+5.682399484846327
+decoder pruning ratio = 0.75
+encoder pruning ratio = 0.0
+2.496853212515513
+encoder pruning ratio = 0.125
+2.520667632420858
+encoder pruning ratio = 0.25
+2.786770376894209
+encoder pruning ratio = 0.375
+3.162472916973962
+encoder pruning ratio = 0.5
+3.7149439255396524
+encoder pruning ratio = 0.625
+4.209131598472595
+encoder pruning ratio = 0.75
+4.374104619026184
+encoder pruning ratio = 0.875
+4.4833570453855724
+encoder pruning ratio = 1.0
+5.682399537828234
+decoder pruning ratio = 0.88
+encoder pruning ratio = 0.0
+2.496853080060747
+encoder pruning ratio = 0.125
+2.5206676390435963
+encoder pruning ratio = 0.25
+2.7867703106668262
+encoder pruning ratio = 0.375
+3.162472857369317
+encoder pruning ratio = 0.5
+3.714943952030606
+encoder pruning ratio = 0.625
+4.209131558736165
+encoder pruning ratio = 0.75
+4.374104605780707
+encoder pruning ratio = 0.875
+4.483357018894619
+encoder pruning ratio = 1.0
+5.682399537828234
+decoder pruning ratio = 1.00
+encoder pruning ratio = 0.0
+2.496853126419915
+encoder pruning ratio = 0.125
+2.5206676390435963
+encoder pruning ratio = 0.25
+2.786770317289564
+encoder pruning ratio = 0.375
+3.1624728772375317
+encoder pruning ratio = 0.5
+3.714944005012512
+encoder pruning ratio = 0.625
+4.209131651454502
+encoder pruning ratio = 0.75
+4.374104552798801
+encoder pruning ratio = 0.875
+4.483356926176283
+encoder pruning ratio = 1.0
+5.682399378882514
+Encoder pruning
+ amount: 0.0 - 1.0 
+method: 2
+decoder pruning ratio = 0.00
+encoder pruning ratio = 0.0
+2.4968530734380088
+encoder pruning ratio = 0.125
+2.633389287524753
+encoder pruning ratio = 0.25
+2.831959936353895
+encoder pruning ratio = 0.375
+3.1491067144605847
+encoder pruning ratio = 0.5
+3.5944769514931574
+encoder pruning ratio = 0.625
+4.065238409572178
+encoder pruning ratio = 0.75
+4.802635603480869
+encoder pruning ratio = 0.875
+4.483410927984449
+encoder pruning ratio = 1.0
+5.682399670283
+decoder pruning ratio = 0.12
+encoder pruning ratio = 0.0
+2.496853139665392
+encoder pruning ratio = 0.125
+2.633389267656538
+encoder pruning ratio = 0.25
+2.831960048940447
+encoder pruning ratio = 0.375
+3.149106754197015
+encoder pruning ratio = 0.5
+3.5944769514931574
+encoder pruning ratio = 0.625
+4.065238422817654
+encoder pruning ratio = 0.75
+4.802635735935635
+encoder pruning ratio = 0.875
+4.483410901493496
+encoder pruning ratio = 1.0
+5.68239959081014
+decoder pruning ratio = 0.25
+encoder pruning ratio = 0.0
+2.496853080060747
+encoder pruning ratio = 0.125
+2.6333892477883234
+encoder pruning ratio = 0.25
+2.8319600555631848
+encoder pruning ratio = 0.375
+3.1491066879696317
+encoder pruning ratio = 0.5
+3.594476991229587
+encoder pruning ratio = 0.625
+4.065238383081224
+encoder pruning ratio = 0.75
+4.802635775672065
+encoder pruning ratio = 0.875
+4.483410861757067
+encoder pruning ratio = 1.0
+5.682399564319187
+decoder pruning ratio = 0.38
+encoder pruning ratio = 0.0
+2.4968531727790833
+encoder pruning ratio = 0.125
+2.633389287524753
+encoder pruning ratio = 0.25
+2.8319600092040167
+encoder pruning ratio = 0.375
+3.1491066614786782
+encoder pruning ratio = 0.5
+3.594476964738634
+encoder pruning ratio = 0.625
+4.065238330099318
+encoder pruning ratio = 0.75
+4.802635722690159
+encoder pruning ratio = 0.875
+4.483410861757067
+encoder pruning ratio = 1.0
+5.682399617301093
+decoder pruning ratio = 0.50
+encoder pruning ratio = 0.0
+2.4968531794018216
+encoder pruning ratio = 0.125
+2.633389267656538
+encoder pruning ratio = 0.25
+2.8319600688086615
+encoder pruning ratio = 0.375
+3.1491066217422485
+encoder pruning ratio = 0.5
+3.5944769779841104
+encoder pruning ratio = 0.625
+4.065238409572178
+encoder pruning ratio = 0.75
+4.802635696199205
+encoder pruning ratio = 0.875
+4.483410875002543
+encoder pruning ratio = 1.0
+5.682399537828234
+decoder pruning ratio = 0.62
+encoder pruning ratio = 0.0
+2.496853139665392
+encoder pruning ratio = 0.125
+2.633389307392968
+encoder pruning ratio = 0.25
+2.831960015826755
+encoder pruning ratio = 0.375
+3.149106674724155
+encoder pruning ratio = 0.5
+3.5944770177205405
+encoder pruning ratio = 0.625
+4.065238383081224
+encoder pruning ratio = 0.75
+4.802635576989916
+encoder pruning ratio = 0.875
+4.483410755793254
+encoder pruning ratio = 1.0
+5.6823996437920465
+decoder pruning ratio = 0.75
+encoder pruning ratio = 0.0
+2.496853152910868
+encoder pruning ratio = 0.125
+2.633389287524753
+encoder pruning ratio = 0.25
+2.8319599562221103
+encoder pruning ratio = 0.375
+3.1491066614786782
+encoder pruning ratio = 0.5
+3.594477030966017
+encoder pruning ratio = 0.625
+4.065238356590271
+encoder pruning ratio = 0.75
+4.802635616726345
+encoder pruning ratio = 0.875
+4.483410927984449
+encoder pruning ratio = 1.0
+5.682399617301093
+decoder pruning ratio = 0.88
+encoder pruning ratio = 0.0
+2.496853166156345
+encoder pruning ratio = 0.125
+2.6333893140157065
+encoder pruning ratio = 0.25
+2.8319600688086615
+encoder pruning ratio = 0.375
+3.1491066879696317
+encoder pruning ratio = 0.5
+3.5944769382476807
+encoder pruning ratio = 0.625
+4.06523843606313
+encoder pruning ratio = 0.75
+4.802635682953729
+encoder pruning ratio = 0.875
+4.483410927984449
+encoder pruning ratio = 1.0
+5.682399564319187
+decoder pruning ratio = 1.00
+encoder pruning ratio = 0.0
+2.49685318602456
+encoder pruning ratio = 0.125
+2.6333892610338
+encoder pruning ratio = 0.25
+2.8319600688086615
+encoder pruning ratio = 0.375
+3.149106721083323
+encoder pruning ratio = 0.5
+3.5944769514931574
+encoder pruning ratio = 0.625
+4.065238356590271
+encoder pruning ratio = 0.75
+4.802635762426588
+encoder pruning ratio = 0.875
+4.48341084851159
+encoder pruning ratio = 1.0
+5.682399749755859
+[[2.49685315 2.52066761 2.78677034 3.16247279 3.71494394 4.20913168
+  4.37410471 4.48335702 5.68239956]
+ [2.49685315 2.52066769 2.78677035 3.16247283 3.71494395 4.20913165
+  4.37410459 4.48335701 5.68239954]
+ [2.4968531  2.5206677  2.7867703  3.16247283 3.71494394 4.20913159
+  4.37410458 4.48335697 5.6823997 ]
+ [2.49685314 2.52066764 2.78677038 3.16247289 3.71494397 4.20913164
+  4.37410461 4.48335701 5.68239948]
+ [2.49685313 2.52066767 2.78677039 3.16247294 3.71494393 4.20913157
+  4.37410466 4.48335681 5.68239959]
+ [2.49685315 2.52066764 2.78677036 3.16247278 3.71494394 4.20913168
+  4.37410463 4.48335687 5.68239948]
+ [2.49685321 2.52066763 2.78677038 3.16247292 3.71494393 4.2091316
+  4.37410462 4.48335705 5.68239954]
+ [2.49685308 2.52066764 2.78677031 3.16247286 3.71494395 4.20913156
+  4.37410461 4.48335702 5.68239954]
+ [2.49685313 2.52066764 2.78677032 3.16247288 3.71494401 4.20913165
+  4.37410455 4.48335693 5.68239938]]
+[[2.49685307 2.63338929 2.83195994 3.14910671 3.59447695 4.06523841
+  4.8026356  4.48341093 5.68239967]
+ [2.49685314 2.63338927 2.83196005 3.14910675 3.59447695 4.06523842
+  4.80263574 4.4834109  5.68239959]
+ [2.49685308 2.63338925 2.83196006 3.14910669 3.59447699 4.06523838
+  4.80263578 4.48341086 5.68239956]
+ [2.49685317 2.63338929 2.83196001 3.14910666 3.59447696 4.06523833
+  4.80263572 4.48341086 5.68239962]
+ [2.49685318 2.63338927 2.83196007 3.14910662 3.59447698 4.06523841
+  4.8026357  4.48341088 5.68239954]
+ [2.49685314 2.63338931 2.83196002 3.14910667 3.59447702 4.06523838
+  4.80263558 4.48341076 5.68239964]
+ [2.49685315 2.63338929 2.83195996 3.14910666 3.59447703 4.06523836
+  4.80263562 4.48341093 5.68239962]
+ [2.49685317 2.63338931 2.83196007 3.14910669 3.59447694 4.06523844
+  4.80263568 4.48341093 5.68239956]
+ [2.49685319 2.63338926 2.83196007 3.14910672 3.59447695 4.06523836
+  4.80263576 4.48341085 5.68239975]]
+FINISH
+Have a Nice Day

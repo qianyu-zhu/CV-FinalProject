@@ -1,0 +1,423 @@
+start training
+all done
+We are using the state dict from
+ /scratch/qz1086/CV-FinalProject/CVFramework/checkpoints/UNet_26.pth
+this is the trial for random/L1 unstructred pruning,         prune all encoder,         different for decoder in np.linspace(0.0, 1.0, 8)
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.4968531926472983
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.497194680902693
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5020105640093484
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5080789261394076
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5150587956110635
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5207858549224005
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.49974564048979
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+6.537025849024455
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.497093379497528
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.49743660291036
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5022559298409357
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5083431469069586
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.515291472276052
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.521057380570306
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.4999638862080045
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+6.53566394911872
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.4988705449634128
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.4992216693030462
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.50406911638048
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5102368858125477
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5171552499135337
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5229500002331204
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.501699023776584
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+6.53920414712694
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.497516175111135
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.497848676310645
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5026091469658747
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.508695595794254
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5156267484029136
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.521171304914686
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.50005085600747
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+6.517936547597249
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5018349621031017
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5021438466178045
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5070265995131598
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5132296548949347
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5200944675339594
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5257333715756736
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5046273006333246
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+6.530997064378527
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5007637672954135
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5010527902179294
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.505870646900601
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.512125962310367
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.51886377731959
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.524459799130758
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.503934144973755
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+6.510936207241482
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.49753255976571
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.4978407555156283
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5022842817836337
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5081987513436212
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5149838195906744
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.5203182697296143
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.499886989593506
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+6.407745228873359
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.68239959081014
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.682399564319187
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.68239959081014
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.68239959081014
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.682399564319187
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.6823996437920465
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.682399537828234
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.6823996967739525
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.496853152910868
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.6748862067858377
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.033785058392419
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.740876065360175
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.61388897895813
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.791296256913079
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.811902112430996
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+6.537025743060642
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.50144460466173
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.915820426411099
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.823464963171217
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.6242749955919056
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.717965179019504
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.807142204708523
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.066644403669569
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.51775238249037
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+2.750369005733066
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.068048848046197
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.2818276749716864
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.620290650261773
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.7130287355846825
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.295160214106242
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.618154777420892
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.7558937602572975
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.2615014447106256
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.7163800133599176
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.9750976827409534
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.9428787761264377
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.49864927927653
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.527393645710415
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.451090839174059
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.597941120465596
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+3.9569168355729847
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.323152595096165
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.555446969138251
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.630212227503459
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.626961204740736
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.598697397443983
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.779023038016425
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.838460206985474
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.805381615956624
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.862404161029392
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+4.909288220935398
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.0000556045108375
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.048125161064996
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.0815860695309105
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.197754542032878
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.183540132310656
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.329897324244182
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.372989866468641
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.471486409505208
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.443685584598118
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.49466676182217
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.4604788356357155
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.503246731228298
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.49738351504008
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.682399723264906
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.682399749755859
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.682399537828234
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.682399670283
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.6823996437920465
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.682399458355373
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.68239959081014
+the following is the encoder module sparsity info: 
+the following is the encoder module sparsity info: 
+5.68239959081014
+<class 'torch.nn.utils.prune.L1Unstructured'> 0.0
+{0.0: 2.4968531926472983, 0.14285714285714285: 2.497194680902693, 0.2857142857142857: 2.5020105640093484, 0.42857142857142855: 2.5080789261394076, 0.5714285714285714: 2.5150587956110635, 0.7142857142857142: 2.5207858549224005, 0.8571428571428571: 2.49974564048979, 1.0: 6.537025849024455}
+<class 'torch.nn.utils.prune.L1Unstructured'> 0.14285714285714285
+{0.0: 2.497093379497528, 0.14285714285714285: 2.49743660291036, 0.2857142857142857: 2.5022559298409357, 0.42857142857142855: 2.5083431469069586, 0.5714285714285714: 2.515291472276052, 0.7142857142857142: 2.521057380570306, 0.8571428571428571: 2.4999638862080045, 1.0: 6.53566394911872}
+<class 'torch.nn.utils.prune.L1Unstructured'> 0.2857142857142857
+{0.0: 2.4988705449634128, 0.14285714285714285: 2.4992216693030462, 0.2857142857142857: 2.50406911638048, 0.42857142857142855: 2.5102368858125477, 0.5714285714285714: 2.5171552499135337, 0.7142857142857142: 2.5229500002331204, 0.8571428571428571: 2.501699023776584, 1.0: 6.53920414712694}
+<class 'torch.nn.utils.prune.L1Unstructured'> 0.42857142857142855
+{0.0: 2.497516175111135, 0.14285714285714285: 2.497848676310645, 0.2857142857142857: 2.5026091469658747, 0.42857142857142855: 2.508695595794254, 0.5714285714285714: 2.5156267484029136, 0.7142857142857142: 2.521171304914686, 0.8571428571428571: 2.50005085600747, 1.0: 6.517936547597249}
+<class 'torch.nn.utils.prune.L1Unstructured'> 0.5714285714285714
+{0.0: 2.5018349621031017, 0.14285714285714285: 2.5021438466178045, 0.2857142857142857: 2.5070265995131598, 0.42857142857142855: 2.5132296548949347, 0.5714285714285714: 2.5200944675339594, 0.7142857142857142: 2.5257333715756736, 0.8571428571428571: 2.5046273006333246, 1.0: 6.530997064378527}
+<class 'torch.nn.utils.prune.L1Unstructured'> 0.7142857142857142
+{0.0: 2.5007637672954135, 0.14285714285714285: 2.5010527902179294, 0.2857142857142857: 2.505870646900601, 0.42857142857142855: 2.512125962310367, 0.5714285714285714: 2.51886377731959, 0.7142857142857142: 2.524459799130758, 0.8571428571428571: 2.503934144973755, 1.0: 6.510936207241482}
+<class 'torch.nn.utils.prune.L1Unstructured'> 0.8571428571428571
+{0.0: 2.49753255976571, 0.14285714285714285: 2.4978407555156283, 0.2857142857142857: 2.5022842817836337, 0.42857142857142855: 2.5081987513436212, 0.5714285714285714: 2.5149838195906744, 0.7142857142857142: 2.5203182697296143, 0.8571428571428571: 2.499886989593506, 1.0: 6.407745228873359}
+<class 'torch.nn.utils.prune.L1Unstructured'> 1.0
+{0.0: 5.68239959081014, 0.14285714285714285: 5.682399564319187, 0.2857142857142857: 5.68239959081014, 0.42857142857142855: 5.68239959081014, 0.5714285714285714: 5.682399564319187, 0.7142857142857142: 5.6823996437920465, 0.8571428571428571: 5.682399537828234, 1.0: 5.6823996967739525}
+<class 'torch.nn.utils.prune.RandomUnstructured'> 0.0
+{0.0: 2.496853152910868, 0.14285714285714285: 2.6748862067858377, 0.2857142857142857: 3.033785058392419, 0.42857142857142855: 4.740876065360175, 0.5714285714285714: 4.61388897895813, 0.7142857142857142: 4.791296256913079, 0.8571428571428571: 5.811902112430996, 1.0: 6.537025743060642}
+<class 'torch.nn.utils.prune.RandomUnstructured'> 0.14285714285714285
+{0.0: 2.50144460466173, 0.14285714285714285: 2.915820426411099, 0.2857142857142857: 3.823464963171217, 0.42857142857142855: 3.6242749955919056, 0.5714285714285714: 3.717965179019504, 0.7142857142857142: 4.807142204708523, 0.8571428571428571: 5.066644403669569, 1.0: 5.51775238249037}
+<class 'torch.nn.utils.prune.RandomUnstructured'> 0.2857142857142857
+{0.0: 2.750369005733066, 0.14285714285714285: 3.068048848046197, 0.2857142857142857: 3.2818276749716864, 0.42857142857142855: 3.620290650261773, 0.5714285714285714: 4.7130287355846825, 0.7142857142857142: 4.295160214106242, 0.8571428571428571: 4.618154777420892, 1.0: 4.7558937602572975}
+<class 'torch.nn.utils.prune.RandomUnstructured'> 0.42857142857142855
+{0.0: 3.2615014447106256, 0.14285714285714285: 3.7163800133599176, 0.2857142857142857: 3.9750976827409534, 0.42857142857142855: 3.9428787761264377, 0.5714285714285714: 4.49864927927653, 0.7142857142857142: 4.527393645710415, 0.8571428571428571: 4.451090839174059, 1.0: 4.597941120465596}
+<class 'torch.nn.utils.prune.RandomUnstructured'> 0.5714285714285714
+{0.0: 3.9569168355729847, 0.14285714285714285: 4.323152595096165, 0.2857142857142857: 4.555446969138251, 0.42857142857142855: 4.630212227503459, 0.5714285714285714: 4.626961204740736, 0.7142857142857142: 4.598697397443983, 0.8571428571428571: 4.779023038016425, 1.0: 4.838460206985474}
+<class 'torch.nn.utils.prune.RandomUnstructured'> 0.7142857142857142
+{0.0: 4.805381615956624, 0.14285714285714285: 4.862404161029392, 0.2857142857142857: 4.909288220935398, 0.42857142857142855: 5.0000556045108375, 0.5714285714285714: 5.048125161064996, 0.7142857142857142: 5.0815860695309105, 0.8571428571428571: 5.197754542032878, 1.0: 5.183540132310656}
+<class 'torch.nn.utils.prune.RandomUnstructured'> 0.8571428571428571
+{0.0: 5.329897324244182, 0.14285714285714285: 5.372989866468641, 0.2857142857142857: 5.471486409505208, 0.42857142857142855: 5.443685584598118, 0.5714285714285714: 5.49466676182217, 0.7142857142857142: 5.4604788356357155, 0.8571428571428571: 5.503246731228298, 1.0: 5.49738351504008}
+<class 'torch.nn.utils.prune.RandomUnstructured'> 1.0
+{0.0: 5.682399723264906, 0.14285714285714285: 5.682399749755859, 0.2857142857142857: 5.682399537828234, 0.42857142857142855: 5.682399670283, 0.5714285714285714: 5.6823996437920465, 0.7142857142857142: 5.682399458355373, 0.8571428571428571: 5.68239959081014, 1.0: 5.68239959081014}
+FINISH
+Have a Nice Day

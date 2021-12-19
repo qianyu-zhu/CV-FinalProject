@@ -1,0 +1,554 @@
+start training
+all done
+We are using the state dict from
+ /scratch/qz1086/CV-FinalProject/CVFramework/checkpoints/UNet_26.pth
+this is the trial for L1/random unstructred pruning,         prune encoder in np.linspace(0.0, 1.0, 9), 	        decoder in np.linspace(0.0, 1.0, 9)
+the matrix notation: first for random, second for L1, 	        raw for decoder, colum for encoder
+Encoder pruning
+ amount: 0.0 - 1.0 
+method: <class 'torch.nn.utils.prune.RandomUnstructured'>
+decoder pruning ratio = 0.00
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.496853126419915
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+2.8819564316007824
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+2.891350600454542
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+4.000270075268215
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+3.8425787025027804
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+4.274893257353041
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+5.127352462874518
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+6.110909885830349
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+6.5370255841149225
+decoder pruning ratio = 0.12
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.467624545097351
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+2.8050447503725686
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+2.9021705521477594
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+3.589610907766554
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+3.73943387137519
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+4.08298397064209
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+4.901680217848884
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+5.149979485405816
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+5.47229986720615
+decoder pruning ratio = 0.25
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.7008013460371227
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+3.1352872451146445
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+3.9411142799589367
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+3.368632674217224
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+3.8422967990239463
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+4.120018535190159
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+4.464090585708618
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+4.71429619524214
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+4.941736062367757
+decoder pruning ratio = 0.38
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+3.0458759334352283
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+3.452068501048618
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+3.6454002327389188
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+3.830195665359497
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+3.9356784290737576
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+4.333239144749111
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+4.365366697311401
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+4.5823556714587745
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+4.643464763959249
+decoder pruning ratio = 0.50
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+3.5413947105407715
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+3.824939317173428
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+4.043858819537693
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+4.3663979106479225
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+4.454641713036431
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+4.406308730443318
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+4.6407823827531605
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+4.7034750779469805
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+4.702179498142666
+decoder pruning ratio = 0.62
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+4.383825381596883
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+4.536361720826891
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+4.945973184373644
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+4.761925962236193
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+4.896711852815416
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+4.667654911677043
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+4.870357327991062
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+4.9508346451653376
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+4.995483001073201
+decoder pruning ratio = 0.75
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+5.003342681460911
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+5.031282530890571
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+5.0820704036288795
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+5.1931230492062035
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+5.140677664015028
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+5.212101406521267
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+5.23411390516493
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+5.3360784318712025
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+5.233299361334907
+decoder pruning ratio = 0.88
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+5.446281459596422
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+5.43453754319085
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+5.532063007354736
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+5.470056507322523
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+5.496931870778401
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+5.547816514968872
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+5.498507923550076
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+5.554500023523967
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+5.515782409244114
+decoder pruning ratio = 1.00
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+5.682399617301093
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+5.682399431864421
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+5.682399723264906
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+5.682399484846327
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+5.682399564319187
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+5.682399617301093
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+5.682399564319187
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+5.682399670283
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+5.6823996437920465
+Encoder pruning
+ amount: 0.0 - 1.0 
+method: <class 'torch.nn.utils.prune.L1Unstructured'>
+decoder pruning ratio = 0.00
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.496853119797177
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+2.497625946998596
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+2.49940197997623
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+2.508030573527018
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+2.5129734012815685
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+2.513134161631266
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+2.5119977725876703
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+2.505067573653327
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+6.537025796042548
+decoder pruning ratio = 0.12
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.4967537257406445
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+2.4975283212131925
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+2.4993114140298633
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+2.5079502397113376
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+2.5128717290030584
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+2.513037039173974
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+2.5118979348076715
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+2.5049709214104547
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+6.535615179273817
+decoder pruning ratio = 0.25
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.4989728728930154
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+2.4997508658303156
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+2.5015259318881564
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+2.5102061695522733
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+2.5151948465241327
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+2.515350454383426
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+2.514244450463189
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+2.507291760709551
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+6.539146211412218
+decoder pruning ratio = 0.38
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.4981426530414157
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+2.4989082482126026
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+2.500679930051168
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+2.509264051914215
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+2.5142735507753162
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+2.514396905899048
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+2.513144075870514
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+2.506228420469496
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+6.5382776790195045
+decoder pruning ratio = 0.50
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.4999909136030407
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+2.500738024711609
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+2.5025547080569797
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+2.51117648018731
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+2.5162021385298834
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+2.5163442889849343
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+2.5151340564092
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+2.507889197932349
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+6.516531176037258
+decoder pruning ratio = 0.62
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.4999865690867105
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+2.500700957245297
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+2.502601967917548
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+2.51130301422543
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+2.5161011483934193
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+2.516200714641147
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+2.5149145589934454
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+2.507824069923825
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+6.517308023240831
+decoder pruning ratio = 0.75
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.4987819592158
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+2.499502115779453
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+2.5012933015823364
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+2.5098160107930503
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+2.514660464392768
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+2.5151054660479226
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+2.5138902597957187
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+2.5066146188312106
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+6.496945275200738
+decoder pruning ratio = 0.88
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+2.497358169820574
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+2.498097081979116
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+2.499593953291575
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+2.5080240103933544
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+2.51258346107271
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+2.5132269859313965
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+2.5119440290662975
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+2.504575510819753
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+6.369456979963514
+decoder pruning ratio = 1.00
+encoder pruning ratio =: 0.00
+the following is the encoder module sparsity info: 
+5.682399537828234
+encoder pruning ratio =: 0.12
+the following is the encoder module sparsity info: 
+5.682399617301093
+encoder pruning ratio =: 0.25
+the following is the encoder module sparsity info: 
+5.68239951133728
+encoder pruning ratio =: 0.38
+the following is the encoder module sparsity info: 
+5.68239951133728
+encoder pruning ratio =: 0.50
+the following is the encoder module sparsity info: 
+5.68239959081014
+encoder pruning ratio =: 0.62
+the following is the encoder module sparsity info: 
+5.682399617301093
+encoder pruning ratio =: 0.75
+the following is the encoder module sparsity info: 
+5.68239959081014
+encoder pruning ratio =: 0.88
+the following is the encoder module sparsity info: 
+5.6823996967739525
+encoder pruning ratio =: 1.00
+the following is the encoder module sparsity info: 
+5.682399484846327
+[[2.49685313 2.88195643 2.8913506  4.00027008 3.8425787  4.27489326
+  5.12735246 6.11090989 6.53702558]
+ [2.46762455 2.80504475 2.90217055 3.58961091 3.73943387 4.08298397
+  4.90168022 5.14997949 5.47229987]
+ [2.70080135 3.13528725 3.94111428 3.36863267 3.8422968  4.12001854
+  4.46409059 4.7142962  4.94173606]
+ [3.04587593 3.4520685  3.64540023 3.83019567 3.93567843 4.33323914
+  4.3653667  4.58235567 4.64346476]
+ [3.54139471 3.82493932 4.04385882 4.36639791 4.45464171 4.40630873
+  4.64078238 4.70347508 4.7021795 ]
+ [4.38382538 4.53636172 4.94597318 4.76192596 4.89671185 4.66765491
+  4.87035733 4.95083465 4.995483  ]
+ [5.00334268 5.03128253 5.0820704  5.19312305 5.14067766 5.21210141
+  5.23411391 5.33607843 5.23329936]
+ [5.44628146 5.43453754 5.53206301 5.47005651 5.49693187 5.54781651
+  5.49850792 5.55450002 5.51578241]
+ [5.68239962 5.68239943 5.68239972 5.68239948 5.68239956 5.68239962
+  5.68239956 5.68239967 5.68239964]]
+[[2.49685312 2.49762595 2.49940198 2.50803057 2.5129734  2.51313416
+  2.51199777 2.50506757 6.5370258 ]
+ [2.49675373 2.49752832 2.49931141 2.50795024 2.51287173 2.51303704
+  2.51189793 2.50497092 6.53561518]
+ [2.49897287 2.49975087 2.50152593 2.51020617 2.51519485 2.51535045
+  2.51424445 2.50729176 6.53914621]
+ [2.49814265 2.49890825 2.50067993 2.50926405 2.51427355 2.51439691
+  2.51314408 2.50622842 6.53827768]
+ [2.49999091 2.50073802 2.50255471 2.51117648 2.51620214 2.51634429
+  2.51513406 2.5078892  6.51653118]
+ [2.49998657 2.50070096 2.50260197 2.51130301 2.51610115 2.51620071
+  2.51491456 2.50782407 6.51730802]
+ [2.49878196 2.49950212 2.5012933  2.50981601 2.51466046 2.51510547
+  2.51389026 2.50661462 6.49694528]
+ [2.49735817 2.49809708 2.49959395 2.50802401 2.51258346 2.51322699
+  2.51194403 2.50457551 6.36945698]
+ [5.68239954 5.68239962 5.68239951 5.68239951 5.68239959 5.68239962
+  5.68239959 5.6823997  5.68239948]]
+FINISH
+Have a Nice Day
