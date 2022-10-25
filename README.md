@@ -11,7 +11,7 @@
   - we use enet.py, which is the pyfile for ENet, more accurate than Unet.
 
 ## Prune
-  - Here are all the pruning techniques we tested, the comparison can be found in the [paper](Efficiency in Semantic Segmentation.pdf)
+  - Here are all the pruning techniques we tested, the comparison can be found in the [paper](https://github.com/qianyu-zhu/CV-Final_Project/blob/1050177ca44789f43b1fb7055d0a9e08f0d7fb6a/Efficiency%20in%20Semantic%20Segmentation.pdf)
 
 ## 
 
