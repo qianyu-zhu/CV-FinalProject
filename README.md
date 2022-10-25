@@ -1,5 +1,8 @@
 # FrameWork
-## Here is a brief introduction for interested readers.
+## Here is a brief introduction for readers.
+
+This respository is the final project for CSCI-GA.2271, computer vision. The course web is [link](https://cs.nyu.edu/~fergus/teaching/vision/index.html).
+
 ## Data
   - For this project, we use the Semantic Drone Dataset from the Institute of Computer Graphics and Vision;
   - It consists of 400 images from nadir (bird’s eye) view acquired at an altitude of 5 to 30 meters above the ground;
