@@ -4,21 +4,17 @@ import segmentation_models_pytorch as smp
 import time
 import numpy as np
 import pandas as pd
+import torch.nn.functional as F
 
-model = smp.Unet(
-    'mobilenet_v2',
-    encoder_weights='imagenet',
-    classes=19,
-    encoder_depth=5,
-    decoder_channels=[256, 128, 64, 32, 16]
-    )
+device = torch.device("cuda")
+
 #Evaluation Matrices
 def pixel_accuracy(output,label):
     output = torch.argmax(F.softmax(output, dim=1), dim=1)
     accur = torch.eq(output, label).int()
     return (torch.sum(accur).float() / output.nelement())
 
-def MiOU(pred_mask, mask, smooth=1e-10, n_classes=23):
+def MiOU(pred_mask, mask, smooth=1e-10, n_classes=24):
     with torch.no_grad():
         pred_mask = F.softmax(pred_mask, dim=1)
         pred_mask = torch.argmax(pred_mask, dim=1)
@@ -40,7 +36,7 @@ def MiOU(pred_mask, mask, smooth=1e-10, n_classes=23):
         return np.nanmean(iou_per_class)
 
 # Training-fit process
-def fit(epochs, model, train_loader, val_loader, criterion, optimizer, scheduler, batch_size, n_class=23):
+def fit(epochs, model, train_loader, val_loader, criterion, optimizer, scheduler, batch_size, n_class=24):
     torch.cuda.empty_cache()
     train_losses = []
     val_losses = []
@@ -52,6 +48,7 @@ def fit(epochs, model, train_loader, val_loader, criterion, optimizer, scheduler
     no_progress = 0
 
     model.to(device)
+    print('current device:', device)
     train_begin = time.time()
 
     for epoch in range(epochs):
@@ -151,4 +148,21 @@ def fit(epochs, model, train_loader, val_loader, criterion, optimizer, scheduler
     duration = time.time() - train_begin
     print('Total time: {:.2f} m'.format(duration / 60))
 
+    # torch.save(model, 'UNet_false.pt', _use_new_zipfile_serialization=False)
+    # torch.save(model, 'UNet_true.pt', _use_new_zipfile_serialization=True)
+
     return train_losses, val_losses, train_miou, val_miou, train_accuracy, val_accuracy
+
+# if __name__ == "__main__":
+#     model = smp.Unet(
+#         'mobilenet_v2', 
+#         encoder_weights='imagenet', 
+#         classes=24, 
+#         encoder_depth=5, 
+#         decoder_channels=[256, 128, 64, 32, 16]
+#         )
+#     print(model)
+#     for layer, (name, module) in enumerate(model.named_modules()):
+#         if isinstance(module, torch.nn.Conv2d):
+
+#             print(module)

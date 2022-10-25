@@ -33,6 +33,7 @@ class UNet(nn.Module):
         self.last_conv = nn.Conv2d(64, out_classes, 1)
 
     def forward(self, t):
+        # print('this is torch size:', t.size())
         t1 = self.double_conv1(t)
         t = self.maxpool(t1)
 
@@ -96,18 +97,7 @@ class UNet(nn.Module):
 
 
 if __name__ == "__main__":
-    model = UNet().cuda()
-    test = torch.rand((1, 3, 500, 750)).cuda()
-    output = model(test)
-    print(output)
-    print(output.size())
-
-    val = torch.rand((1, 500, 750)).long().cuda()
-    criterion = nn.CrossEntropyLoss().cuda()
-    loss = criterion(output, val)
-    print(loss.item())
-
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
-    optimizer.zero_grad()  # when processing a new batch, clear the gradient on start
-    loss.backward()  # calculate gradients
-    optimizer.step()
+    model = UNet()
+    for layer, (name, module) in enumerate(model.named_modules()):
+        if isinstance(module, torch.nn.Conv2d):
+            print(module)
