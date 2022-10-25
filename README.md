@@ -1,19 +1,19 @@
 # FrameWork
-## Here are the tips for beautiful users.
+## Here is a brief introduction for interested readers.
 ## Data
-  - it will contain all the dataset generator we need
-  - For now, here's only the dataset generator for CITYSCAPES
-  - Need dataset.DataLoader to convert it into dataloader
+  - For this project, we use the Semantic Drone Dataset from the Institute of Computer Graphics and Vision;
+  - it consists of 400 images from nadir (bird’s eye) view acquired at an altitude of 5 to 30 meters above the ground;
+  - To carry on semantic segmentation tasks, we use pixel-accurate annotation of 24 classes (1 unlabeled class) to train and test models.
 
 ## Model
-  - it will contain all the models we need
-  - For now, here's only enet.py, which is the pyfile for ENet
+  - it will contain all the models we need;
+  - we use simpleUnet.py and unet_advanced.py, which are two advanced version of venilla Unet;
+  - we use enet.py, which is the pyfile for ENet, more accurate than Unet.
 
-## main.py
-  - Here, instead using argparse
-  - I use two (or more) argument dictionaies for argument passing.
+## Prune
+  - Here are all the pruning techniques we tested, the comparison can be found in the [paper](Efficiency in Semantic Segmentation.pdf)
 
-## I just want to modify this file to see if it changes in github
+## 
 
 
 
